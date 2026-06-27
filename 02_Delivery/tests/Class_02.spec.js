@@ -36,7 +36,7 @@ class TestUser
  let AdminUser = new TestUser ("eduardo.barajas@gmail.com", "Admin")
  let ViewerUser = new TestUser ("alma.guerrero@hotmail.com", "ReadOnly")
 //Print the name of the users
-test.only('Print Full Name Users', async () => {
+test('Print Full Name Users', async () => {
    
     console.log(AdminUser.fullName())
     console.log(ViewerUser.fullName())
