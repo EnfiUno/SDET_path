@@ -1,0 +1,17 @@
+{
+  "name": "restful-booker-api-tests",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  },
+  "dependencies": {
+    "ajv": "^6.12.6",
+    "csv-parse": "^5.5.6"
+  }
+}
