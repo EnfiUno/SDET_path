@@ -33,7 +33,7 @@ export default defineConfig({
     trace: 'on-first-retry',
   },
 
-  /* Configure projects for major browsers */
+  /* Configure projects for major browsers - there are only 3 browsers */
   projects: [
   
     {
